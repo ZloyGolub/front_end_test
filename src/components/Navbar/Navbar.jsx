@@ -39,8 +39,10 @@ function Navbar() {
             </div>
             <div>
                 <ReactFlagsSelect
+                defaultCountry={["RU"]}
+                placeholder={["RU"]}
                 selected={selected}
-                showSelectedLabel={false}
+                showSelectedLabel={true}
                 onSelect={code => setSelected(code)}
                 countries={["RU", "UA", "GB"]}
                 customLabels={{"RU": " ","UA": " ","GB": " "}}
