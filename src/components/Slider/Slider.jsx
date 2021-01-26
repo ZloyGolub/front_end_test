@@ -1,5 +1,7 @@
 import React from "react";
 import s from "./Slider.module.css";
+import slider_img from "./../../assets/images/slider.jpg";
+
 
 function Slider() {
     return (
@@ -12,16 +14,19 @@ function Slider() {
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg" alt="First slide" />
+                    <img class="d-block w-100" src={slider_img} alt="First slide" />
+                    <div class="carousel-caption text-left d-none d-md-block">
+                        <h5>Высокоточное изготовление<br/> изделий из металла по чертежам</h5>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg" alt="Second slide" />
+                    <img class="d-block w-100" src={slider_img} alt="Second slide" />
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg" alt="Third slide" />
+                    <img class="d-block w-100" src={slider_img} alt="Third slide" />
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="https://www.imgacademy.com/themes/custom/imgacademy/images/helpbox-contact.jpg" alt="Third slide" />
+                    <img class="d-block w-100" src={slider_img} alt="Third slide" />
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

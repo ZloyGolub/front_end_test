@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 body {
-  background-color: rgb(206, 206, 206);
+  background-color: white;
 }
 
 .App {
@@ -39,4 +41,9 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.carousel-caption {
+  position: absolute;
+  top:150px
 }
